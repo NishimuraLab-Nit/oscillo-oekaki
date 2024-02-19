@@ -1,0 +1,16 @@
+#自分の環境
+.DS_Store
+badappl/
+images*/
+*.mp4
+*.png
+*test*
+
+#kicad
+*.bak
+*.bck
+*.kicad_pcb-bak
+*-cache.lib
+ftp-lib-table
+*.dsn
+*-backups
