@@ -18,7 +18,7 @@ ffmpegを使って動画や画像を256x256pixに変換する。
 回路を組む。  
 
 コンパイルする。  
-`gcc -Wall -pthread -o <paint or movie> oscillo-<paint or movie>.c -lpigpio -lrt`  
+`gcc -o <paint or movie> oscillo-<paint or movie>.c -lpigpio`  
 
 描画する。  
 ・静止画の場合  
