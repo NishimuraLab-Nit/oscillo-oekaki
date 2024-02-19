@@ -8,14 +8,14 @@
 ffmpegを使って動画や画像を256x256pixに変換する。  
 動画の場合はフレームレートを指定して画像にする。  
 ・静止画の場合  
-`ffmpeg -i "originalData/画像.png" -s 256x256 ../images/%05d.png`  
+`ffmpeg -i "画像.png" -s 256x256 images/%05d.png`  
 ・動画の場合  
-`ffmpeg -i "originalData/ビデオ.mp4" -s 256x256 -r 24 ../images/%05d.png`  
+`ffmpeg -i "ビデオ.mp4" -s 256x256 -r 24 images/%05d.png`  
 
 エッジ検出する。  
 `python3 convert.py <ファイル名>`  
 
-回路を組む。  
+回路を組むか基板を積む。  
 
 コンパイルする。  
 `gcc -o <paint or movie> oscillo-<paint or movie>.c -lpigpio`  
